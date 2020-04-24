@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vending Machine</title>
+  </head>
+  <body>
+    <div class="main">
+    <table class="machine">
+      <tr>
+        <td><button class="item" id="button-tea">Tea</button></td>
+        <td><button class="item" id="button-coke">Coke</button></td>
+      </td>
+      <tr>
+        <td><p class="item" id="lot-tea">在庫:0個</p></td>
+        <td><p class="item" id="lot-coke">在庫:0個</p></td>
+      </tr>
+      <tr>
+        <td><p class="item" id="price-tea">値段:0円</p></td>
+        <td><p class="item" id="price-coke">値段:0円</p></td>
+      </tr>
+    </table>
+    <table class="inputter">
+      <tr>
+        <td>INPUT MONEY</td>
+      </tr>
+      <tr>
+        <td><input type="number" id="input-money"></td>
+      </tr>
+      <tr>
+        <td>OUT ITEM</td>
+      </tr>
+      <tr>
+        <td><p id="out-item">(お茶)</p></td>
+      </tr>
+    </table>
+  </div>
+  <script src="main.js"></script>
+  </body>
+</html>
